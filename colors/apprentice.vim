@@ -43,7 +43,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi MatchParen     ctermbg=233  ctermfg=229  guibg=#1c1c1c guifg=#ffffaf cterm=NONE           gui=NONE
     hi signColumn     ctermbg=233  ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
   else
-    hi Normal         ctermbg=235  ctermfg=250  guibg=#262626 guifg=#bcbcbc cterm=NONE           gui=NONE
+    hi Normal         ctermbg=16  ctermfg=250  guibg=#262626 guifg=#bcbcbc cterm=NONE           gui=NONE
     hi LineNr         ctermbg=234  ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
     hi FoldColumn     ctermbg=234  ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
     hi Folded         ctermbg=234  ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
@@ -95,7 +95,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
   hi StatusLine       ctermbg=101  ctermfg=235  guibg=#87875f guifg=#262626 cterm=NONE           gui=NONE
   hi StatusLineNC     ctermbg=238  ctermfg=101  guibg=#444444 guifg=#87875f cterm=NONE           gui=italic
 
-  hi Visual           ctermbg=235  ctermfg=110  guibg=#262626 guifg=#8fafd7 cterm=reverse        gui=reverse
+  hi Visual           ctermbg=16  ctermfg=110  guibg=#262626 guifg=#8fafd7 cterm=reverse        gui=reverse
   hi VisualNOS        ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=underline      gui=underline
 
   hi VertSplit        ctermbg=238  ctermfg=238  guibg=#444444 guifg=#444444 cterm=NONE           gui=NONE
@@ -105,10 +105,10 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
   hi SpecialKey       ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#585858 cterm=NONE           gui=NONE
   hi Title            ctermbg=NONE ctermfg=231  guibg=NONE    guifg=#ffffff cterm=NONE           gui=NONE
 
-  hi DiffAdd          ctermbg=235  ctermfg=108  guibg=#262626 guifg=#87af87 cterm=reverse        gui=reverse
-  hi DiffChange       ctermbg=235  ctermfg=103  guibg=#262626 guifg=#8787af cterm=reverse        gui=reverse
-  hi DiffDelete       ctermbg=235  ctermfg=131  guibg=#262626 guifg=#af5f5f cterm=reverse        gui=reverse
-  hi DiffText         ctermbg=235  ctermfg=208  guibg=#262626 guifg=#ff8700 cterm=reverse        gui=reverse
+  hi DiffAdd          ctermbg=16  ctermfg=108  guibg=#262626 guifg=#87af87 cterm=reverse        gui=reverse
+  hi DiffChange       ctermbg=16  ctermfg=103  guibg=#262626 guifg=#8787af cterm=reverse        gui=reverse
+  hi DiffDelete       ctermbg=16  ctermfg=131  guibg=#262626 guifg=#af5f5f cterm=reverse        gui=reverse
+  hi DiffText         ctermbg=16  ctermfg=208  guibg=#262626 guifg=#ff8700 cterm=reverse        gui=reverse
 
   hi IncSearch        ctermbg=131  ctermfg=235  guibg=#af5f5f guifg=#262626 cterm=NONE           gui=NONE
   hi Search           ctermbg=229  ctermfg=235  guibg=#ffffaf guifg=#262626 cterm=NONE           gui=NONE
